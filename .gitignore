@@ -1,0 +1,37 @@
+## OS specific ########
+.DS_Store
+.fuse_hidden*
+
+## Visual Studio Code specific ######
+.vscode
+*.bak
+*.code-workspace
+
+## Project files ######
+.secrets/db_root_pwd.txt
+.secrets/mysql_pwd.txt
+.secrets
+./data
+./letsencrypt
+./db
+data/access/1
+data/custom_ssl/npm-4/fullchain.pem
+data/custom_ssl/npm-4/privkey.pem
+data/custom_ssl/npm-5/fullchain.pem
+data/custom_ssl/npm-5/privkey.pem
+data/logs/default.log
+data/logs/error.log
+data/logs/letsencrypt-requests.log
+data/logs/proxy_host-1.log
+data/logs/proxy_host-2.log
+data/nginx/dummycert.pem
+data/nginx/dummykey.pem
+data/nginx/proxy_host/1.conf
+data/nginx/proxy_host/2.conf
+db/74ce0e77edec.pid
+db/aria_log_control
+db/aria_log.00000001
+db/multi-master.info
+letsencrypt/csr/0000_csr-certbot.pem
+letsencrypt/csr/0001_csr-certbot.pem
+letsencrypt/csr/0002_csr-certbot.pem
